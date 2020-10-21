@@ -1,0 +1,35 @@
+.ant-layout {
+    background-color: #fff;
+}
+
+main {
+    padding: 50px;
+    min-height: 100vh;
+    @media screen and (max-width: 610px) {
+        padding: 15px;
+    }
+    .ant-input-number {
+        min-width: 300px;
+        margin-right: 10px;
+        @media screen and (max-width: 610px) {
+            min-width: auto;
+            width: 100%;
+            margin-bottom: 15px;
+            margin-right: 0;
+        }
+    }
+    .ant-select {
+        min-width: 200px;
+        @media screen and (max-width: 610px) {
+            min-width: auto;
+            width: 100%;
+        }
+    }
+    .anticon-swap {
+        color: #0077ff;
+        font-size: 30px;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+}
+
